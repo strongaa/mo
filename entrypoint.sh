@@ -5,7 +5,7 @@ WSPATH=${WSPATH:-'argo'}
 UUID=${UUID:-'ad8484b2-69dd-42ec-a19d-afca30b2f132'}
 
 # 其他Paas保活
-PAAS1_URL=
+PAAS1_URL=https://moxo1-prod-someone-lzk2sk.mo2.mogenius.io
 PAAS2_URL=
 PAAS3_URL=
 PAAS4_URL=
@@ -17,8 +17,8 @@ KOYEB_ACCOUNT=
 KOYEB_PASSWORD=
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，获取方式看 https://github.com/fscarmen2/X-for-Glitch，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH='{"AccountTag":"13ae6e7b72ef482a40b50a399c3b30ee","TunnelSecret":"DFbG/LOI46aD1W6f3xzNCeo4qjHNbJ7GLSdl/j/lE+A=","TunnelID":"901ae0e1-3a25-4c4d-9526-23a7a155ce4c"}'
-ARGO_DOMAIN=jback.enjoycoffee.tk
+ARGO_AUTH=''
+ARGO_DOMAIN=
 
 generate_config() {
   cat > config.json << EOF

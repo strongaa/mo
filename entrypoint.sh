@@ -5,7 +5,7 @@ WSPATH=${WSPATH:-'argo'}
 UUID=${UUID:-'e576df52-0949-4176-a795-2d491ba0879c'}
 
 # 其他Paas保活
-PAAS1_URL=
+PAAS1_URL=https://moxo1-prod-somewhere-9bxh1w.mo2.mogenius.io/
 PAAS2_URL=
 PAAS3_URL=
 PAAS4_URL=
